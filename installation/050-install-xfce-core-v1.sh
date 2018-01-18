@@ -10,7 +10,7 @@ echo "gdm"
 echo "################################################################"
 
 
-package="slim"
+package="gdm"
 
 #----------------------------------------------------------------------------------
 
@@ -132,7 +132,7 @@ fi
 
 echo "Display manager being activated"
 
-sudo systemctl enable slim.service
+sudo systemctl enable gdm.service
 
 echo "Reboot and select the proper desktop environment"
 echo "with the gauge symbol."
