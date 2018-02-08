@@ -22,6 +22,10 @@ sudo pacman -S noto-fonts --noconfirm --needed
 # extra extensions to compare files if needed install it
 # packer -S nemo-compare
 
+ä
+# simple screenlocker
+sudo pacman -S slock --noconfirm --needed
+
 echo "################################################################"
 echo "#########   distro specific software installed  ################"
 echo "################################################################"
