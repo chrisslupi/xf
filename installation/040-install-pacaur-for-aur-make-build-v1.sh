@@ -13,17 +13,17 @@ echo "################################################################"
 sudo pacman -S expac yajl --needed --noconfirm
 
 echo "################################################################"
-echo "####                   pacaur installation                  ####"
+echo "####                   yay installation                  ####"
 echo "################################################################"
 
 
-# source : https://www.ostechnix.com/install-pacaur-arch-linux/
+# source : https://www.ostechnix.com/install-yay-arch-linux/
 
 
 
 
-package="pacaur"
-command="pacaur"
+package="yay"
+command="yay"
 
 #----------------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ else
 
 	makepkg -i PKGBUILD --noconfirm
 
-	curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
+	curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=yay
 
 	makepkg -i PKGBUILD --noconfirm
 

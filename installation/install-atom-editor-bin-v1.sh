@@ -25,10 +25,10 @@ else
 		echo "Installing with packer"
 		packer -S --noedit  $package
 
-	elif pacman -Qi pacaur &> /dev/null; then
+	elif pacman -Qi yay &> /dev/null; then
 		
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
+		echo "Installing with yay"
+		yay -S --noconfirm --noedit  $package
 		 	
 	elif pacman -Qi yaourt &> /dev/null; then
 

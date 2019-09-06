@@ -8,10 +8,10 @@
 program="paper-icon-theme-git"
 command="paper-icon-theme-git"
 
-if which pacaur > /dev/null; then
+if which yay > /dev/null; then
 
-	echo "Installing with pacaur"
-	pacaur -S --noconfirm --noedit  $program
+	echo "Installing with yay"
+	yay -S --noconfirm --noedit  $program
 
 elif which packer > /dev/null; then
 
