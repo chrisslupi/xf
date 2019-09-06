@@ -11,7 +11,7 @@ command="paper-icon-theme-git"
 if which yay > /dev/null; then
 
 	echo "Installing with yay"
-	yay -S --noconfirm --noedit  $program
+	yay -S --noconfirm   $program
 
 elif which packer > /dev/null; then
 

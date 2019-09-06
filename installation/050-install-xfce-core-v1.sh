@@ -32,7 +32,7 @@ set -e
 #	elif pacman -Qi yay &> /dev/null; then
 		
 #		echo "Installing with yay"
-#		yay -S --noconfirm --noedit  $package
+#		yay -S --noconfirm   $package
 		 	
 #	elif pacman -Qi yaourt &> /dev/null; then
 
@@ -71,7 +71,7 @@ else
 	elif pacman -Qi yay &> /dev/null; then
 		
 		echo "Installing with yay"
-		yay -S --noconfirm --noedit  $package
+		yay -S --noconfirm   $package
 		 	
 	elif pacman -Qi yaourt &> /dev/null; then
 
@@ -110,7 +110,7 @@ else
 	elif pacman -Qi yay &> /dev/null; then
 		
 		echo "Installing with yay"
-		yay -S --noconfirm --noedit  $package
+		yay -S --noconfirm   $package
 		 	
 	elif pacman -Qi yaourt &> /dev/null; then
 
@@ -148,7 +148,7 @@ else
 	elif pacman -Qi yay &> /dev/null; then
 		
 		echo "Installing with yay"
-		yay -S --noconfirm --noedit  $package
+		yay -S --noconfirm   $package
 		 	
 	elif pacman -Qi yaourt &> /dev/null; then
 
@@ -189,7 +189,7 @@ else
 	elif pacman -Qi yay &> /dev/null; then
 		
 		echo "Installing with yay"
-		yay -S --noconfirm --noedit  $package
+		yay -S --noconfirm   $package
 		 	
 	elif pacman -Qi yaourt &> /dev/null; then
 
